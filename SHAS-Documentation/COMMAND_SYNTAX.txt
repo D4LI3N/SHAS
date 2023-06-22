@@ -1,0 +1,29 @@
+COMMAND SYNTAX:
+GET <PARAMETER>
+	PARAMETERS:
+	TEMP = temperature (in °C)
+	LUX  = luminosity (in lumens)
+	MOVE = movement detected (1/0, and restarts it)
+	ACM  = AC Mode active (1/0)
+	LAM  = Light Auto Mode active (1/0)
+	HSM  = Home Secure Mode active (1/0)
+	EM   = Emergency Mode active (1/0)
+	
+
+SET <PARAMETER> <VALUE>
+
+	PARAMETERS:
+	LIGHTS = relay to which lights are connected (1/0)
+	RED    = red LED (1/0)
+	GREEN  = green LED (1/0)
+	ACM    = Air Condition Mode (1/0)
+	AC     = AC control (0 OFF, 1 cooling, 2 heating)
+	LAM    = Light Auto Mode (1/0)
+	HSM    = Home Secure Mode (1/0)
+	EM     = Emergency Mode (1/0)
+
+VALUES:
+0 = OFF
+1 = ON (OR ACM: cooling)
+2 = ACM ONLY: heating
+
