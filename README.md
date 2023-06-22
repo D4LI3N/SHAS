@@ -8,7 +8,6 @@
 ![badge](https://img.shields.io/badge/technology-C/C++-green.svg)
 ![badge](https://img.shields.io/badge/technology-Python-green.svg)
 
-![badge](https://img.shields.io/badge/technology-Typescript-green.svg)
 
 
 
