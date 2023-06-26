@@ -13,6 +13,8 @@
 
 **Smart Home Automation System (SHAS)**
 
+![header image](https://github.com/D4LI3N/SHAS/SHAS-Documentation/x.png?raw=true)
+
 
 # 1. Project Features
 #TODO
