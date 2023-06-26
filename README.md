@@ -35,12 +35,12 @@ Although currently showcased on a breadboard for demonstration purposes, with mi
 - Features a simple and intuitive command syntax using "SET/GET" commands.
 
 # Operation
-## SETUP:
+## Setup:
 - Configure the AP settings of the devices.
 - Connect the devices to a power supply (5VDC).
 - Optional: Configure dynamic DNS on a router to enable control of SHAS from outside the home network.
 
-## USAGE:
+## Usage:
 After booting,
 
 - If the device is not connected to the configured WiFi AP (home router)
