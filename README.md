@@ -1,87 +1,32 @@
-# Smart Home Automation System (SHAS)
+# Java Spring Example
 
 [![badge](https://img.shields.io/badge/license-MIT-success.svg)](https://opensource.org/license/mit)
 [![badge](https://img.shields.io/badge/support-PayPal-blue.svg)](https://paypal.me/d4li3n)
-[![badge](https://img.shields.io/badge/publication-danielthecyberdude.com-purple.svg)](https://danielthecyberdude.com/project/shas)
+
+![badge](https://img.shields.io/badge/technology-Java-green.svg)
+![badge](https://img.shields.io/badge/technology-Java_EE-green.svg)
+![badge](https://img.shields.io/badge/technology-Spring-green.svg)
+![badge](https://img.shields.io/badge/technology-Maven-green.svg)
 
 
-![badge](https://img.shields.io/badge/technology-C/C++-green.svg)
-![badge](https://img.shields.io/badge/technology-Python-green.svg)
-![badge](https://img.shields.io/badge/technology-Arduino-green.svg)
-![badge](https://img.shields.io/badge/technology-ThingSpeak-green.svg)
-
-
-![header image](https://github.com/D4LI3N/SHAS/blob/master/SHAS-Documentation/x.png?raw=true)
+![header image](https://github.com/D4LI3N/SHAS/blob/master/SHAS-Documentation/Diagram-UML.jpg?raw=true)
 
 
 
-**Smart Home Automation System (SHAS)** is an innovative project designed to provide homeowners with convenient remote control over sensors and devices in their homes. It utilizes a diverse range of channels and devices to deliver flexible and efficient control capabilities.
-
-Although currently showcased on a breadboard for demonstration purposes, with minimal modifications or even in its current state, SHAS has the potential to be effectively implemented in real-world scenarios.
+**Java Spring Example** is a simple demonstration of how the JSF (Java Spring Framework) and the "bean" structure works.
 
 # Project Features
-- Control through four potential channels: physical button, Email, serial, and any device with a web browser, with smartphones being the most convenient option.
-- Cloud data backups and analytics for temperature, luminosity, and intruder detection, facilitated by the ThingSpeak analytics platform.
-- Real-time control, responses, and access to historical data.
-- Five operational modes:
-    - AC Mode: Controls the operation of the air conditioning system.
-
-    - Light Auto Mode: Automatically adjusts the lighting based on ambient conditions or programmed settings.
-
-    - Home Secure Mode: Enhances home security by activating various monitoring and alert systems.
-
-    - Emergency Mode: Activates predefined emergency protocols to ensure safety and provide immediate assistance in critical situations.
-
-- Features a simple and intuitive command syntax using "SET/GET" commands.
+- Simple demonstration
+- Console based
 
 # Operation
-## Setup:
-- Configure the AP settings of the devices.
-- Connect the devices to a power supply (5VDC).
-- Optional: Configure dynamic DNS on a router to enable control of SHAS from outside the home network.
-
-## Usage:
-After booting,
-
-- If the device is not connected to the configured WiFi AP (home router)
-    - it can only be controlled physically.
-
-- If the device is connected to the configured WiFi AP (home router):
-    - It can be controlled physically
-
-    - It can be controlled through a web UI
-
-- If the device is connected to the configured WiFi AP (home router) and a computer:
-    - It can be controlled physically
-
-    - It can be controlled through a web UI
-
-    - It can be controlled through the serial channel
-
-- If the device is connected to the configured WiFi AP (home router) and a computer running the extension script with internet access:
-    - It can be controlled physically
-
-    - It can be controlled through a web UI
-
-    - It can be controlled through the serial channel
-
-    - It can be controlled via email
+- Download Java 1.8.x
+- Download project
+- Run project
 
 # Technology Overview
 ## Software:
-- C/C++
-- Python
-- Arduino
-- ThingSpeak
-
-## Hardware:
-- Heltec WIFI LoRa 32 (ESP32 based MCU)
-- PIR sensor (HC-SR501)
-- Resistor (220 Ω)
-- Temperature sensor (LM35)
-- Illumination sensor (GL5528 photoresistor)
-- DC motor (5VDC)
-- Relay (5VDC10A)
-- LED (DIP)
-- Breadboard and wires
-
+- Java
+- Java Enterprise Edition
+- Spring
+- Maven
