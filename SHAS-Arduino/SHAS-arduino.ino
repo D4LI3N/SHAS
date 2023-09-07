@@ -59,8 +59,6 @@ String returnedText;
 String splitArray[3];
 int i = 0;
 
-
-
 //functions
 void checkBtn(){
  /*
@@ -75,8 +73,6 @@ void checkBtn(){
   }
   btnLastState = btnCurrentState;
  }
-
-
 
 void pinSetup(){
  /*
@@ -118,7 +114,6 @@ void setAC(int x){
       break;
   }
 }
-
 
 
 void updateTemp(){
@@ -494,10 +489,6 @@ void handleRoot() {
   
   server.send(200, "text/html", html);
 }
-
-
-
-
 
 
 void handleSwitch(String command) {
