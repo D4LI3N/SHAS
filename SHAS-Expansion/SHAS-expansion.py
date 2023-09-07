@@ -30,6 +30,8 @@ class SHAS:
     
     def __init__(self):
         """Class constructor"""
+
+        self.printHeader()
         
         self.BAUD_RATE  = 115200;
         self.COM_PORT   = "COM5";
@@ -70,7 +72,51 @@ class SHAS:
         thingspeakCheckThread.start()#mailDailyReport
         print("[+] Innit done, you can now use the SERIAL metodes to call commands on SHAS")
 
+    def printHeader(self):
+        print("""
+            ███████╗██╗  ██╗ █████╗ ███████╗
+            ██╔════╝██║  ██║██╔══██╗██╔════╝
+            ███████╗███████║███████║███████╗
+            ╚════██║██╔══██║██╔══██║╚════██║
+            ███████║██║  ██║██║  ██║███████║
+            ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
+                by Daniel Petrovich
 
+COMMAND SYNTAX:
+    GET <PARAMETER>
+            PARAMETERS:
+            TEMP = temperature (in °C)
+            LUX  = luminosity (in lumens)
+            MOVE = movement detected (1/0, and restarts it)
+            ACM  = AC Mode active (1/0)
+            LAM  = Light Auto Mode active (1/0)
+            HSM  = Home Secure Mode active (1/0)
+            EM   = Emergency Mode active (1/0)
+            
+
+    SET <PARAMETER> <VALUE>
+
+            PARAMETERS:
+            LIGHTS = relay to which lights are connected (1/0)
+            RED    = red LED (1/0)
+            GREEN  = green LED (1/0)
+            ACM    = Air Condition Mode (1/0)
+            AC     = AC control (0 OFF, 1 cooling, 2 heating)
+            LAM    = Light Auto Mode (1/0)
+            HSM    = Home Secure Mode (1/0)
+            EM     = Emergency Mode (1/0)
+
+VALUES:
+    0 = OFF
+    1 = ON (OR ACM: cooling)
+    2 = ACM ONLY: heating
+
+SERIAL:
+    X.serialGET("<PARAMETER>")
+    X.serialSET("<PARAMETER> <VALUE>")
+    X.mailReport() 
+
+""")
 
     def serialSET(self, x):
         """Sending the value x to the MCU for futher operation"""
@@ -345,48 +391,4 @@ class SHAS:
 
 
 if __name__ == "__main__":
-    print("""
-            ███████╗██╗  ██╗ █████╗ ███████╗
-            ██╔════╝██║  ██║██╔══██╗██╔════╝
-            ███████╗███████║███████║███████╗
-            ╚════██║██╔══██║██╔══██║╚════██║
-            ███████║██║  ██║██║  ██║███████║
-            ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
-                by Daniel Petrovich
-
-COMMAND SYNTAX:
-    GET <PARAMETER>
-            PARAMETERS:
-            TEMP = temperature (in °C)
-            LUX  = luminosity (in lumens)
-            MOVE = movement detected (1/0, and restarts it)
-            ACM  = AC Mode active (1/0)
-            LAM  = Light Auto Mode active (1/0)
-            HSM  = Home Secure Mode active (1/0)
-            EM   = Emergency Mode active (1/0)
-            
-
-    SET <PARAMETER> <VALUE>
-
-            PARAMETERS:
-            LIGHTS = relay to which lights are connected (1/0)
-            RED    = red LED (1/0)
-            GREEN  = green LED (1/0)
-            ACM    = Air Condition Mode (1/0)
-            AC     = AC control (0 OFF, 1 cooling, 2 heating)
-            LAM    = Light Auto Mode (1/0)
-            HSM    = Home Secure Mode (1/0)
-            EM     = Emergency Mode (1/0)
-
-VALUES:
-    0 = OFF
-    1 = ON (OR ACM: cooling)
-    2 = ACM ONLY: heating
-
-SERIAL:
-    X.serialGET("<PARAMETER>")
-    X.serialSET("<PARAMETER> <VALUE>")
-    X.mailReport() 
-
-""")
     X = SHAS()
