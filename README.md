@@ -43,29 +43,29 @@ Although currently showcased on a breadboard for demonstration purposes, with mi
 ## Usage:
 After booting,
 
-- If the device is not connected to the configured WiFi AP (home router)
-    - it can only be controlled physically.
+- If the device is not connected to the configured WiFi AP (home router), it can only be controlled:
+    - physically.
 
-- If the device is connected to the configured WiFi AP (home router):
-    - It can be controlled physically
+- If the device is connected to the configured WiFi AP (home router), it can only be controlled:
+    - physically
 
-    - It can be controlled through a web UI
+    - through a web UI
 
-- If the device is connected to the configured WiFi AP (home router) and a computer:
-    - It can be controlled physically
+- If the device is connected to the configured WiFi AP (home router) and a computer, it can only be controlled:
+    - physically
 
-    - It can be controlled through a web UI
+    - through a web UI
 
-    - It can be controlled through the serial channel
+    - through the serial channel
 
-- If the device is connected to the configured WiFi AP (home router) and a computer running the extension script with internet access:
-    - It can be controlled physically
+- If the device is connected to the configured WiFi AP (home router) and a computer running the expansion script with internet access, it can only be controlled:
+    - physically
 
-    - It can be controlled through a web UI
+    - through a web UI
 
-    - It can be controlled through the serial channel
+    - through the serial channel
 
-    - It can be controlled via email
+    - via email
 
 # Technology Overview
 ## Software:
