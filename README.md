@@ -9,6 +9,7 @@
 ![badge](https://img.shields.io/badge/technology-Python-green.svg)
 ![badge](https://img.shields.io/badge/technology-Arduino-green.svg)
 ![badge](https://img.shields.io/badge/technology-ThingSpeak-green.svg)
+![badge](https://img.shields.io/badge/technology-JavaScript-green.svg)
 ![badge](https://img.shields.io/badge/technology-HTML-green.svg)
 ![badge](https://img.shields.io/badge/technology-CSS-green.svg)
 
