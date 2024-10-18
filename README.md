@@ -9,6 +9,8 @@
 ![badge](https://img.shields.io/badge/technology-Python-green.svg)
 ![badge](https://img.shields.io/badge/technology-Arduino-green.svg)
 ![badge](https://img.shields.io/badge/technology-ThingSpeak-green.svg)
+![badge](https://img.shields.io/badge/technology-HTML-green.svg)
+![badge](https://img.shields.io/badge/technology-CSS-green.svg)
 
 
 ![header image](https://github.com/D4LI3N/SHAS/blob/master/SHAS-Documentation/x.png?raw=true)
