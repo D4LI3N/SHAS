@@ -23,19 +23,23 @@
 Although currently showcased on a breadboard for demonstration purposes, with minimal modifications or even in its current state, SHAS has the potential to be effectively implemented in real-world scenarios.
 
 # Project Features
-- Control through four potential channels: physical button, Email, serial, and any device with a web browser, with smartphones being the most convenient option.
-- Cloud data backups and analytics for temperature, luminosity, and intruder detection, facilitated by the ThingSpeak analytics platform.
-- Real-time control, responses, and access to historical data.
-- Five operational modes:
+✔️ Control through four potential channels: physical button, Email, serial, and any device with a web browser, with smartphones being the most convenient option.
+
+✔️ Cloud data backups and analytics for temperature, luminosity, and intruder detection, facilitated by the ThingSpeak analytics platform.
+
+✔️ Real-time control, responses, and access to historical data.
+
+✔️ Five operational modes:
+
     - AC Mode: Controls the operation of the air conditioning system.
 
     - Light Auto Mode: Automatically adjusts the lighting based on ambient conditions or programmed settings.
 
     - Home Secure Mode: Enhances home security by activating various monitoring and alert systems.
 
-    - Emergency Mode: Activates predefined emergency protocols to ensure safety and provide immediate assistance in critical situations.
+    - Emergency Mode: Activates predefined emergency protocols to ensure safety and provide immediate assistance.
 
-- Features a simple and intuitive command syntax using "SET/GET" commands.
+✔️ Features a simple and intuitive command syntax using "SET/GET" commands.
 
 # Operation
 ## Setup:
